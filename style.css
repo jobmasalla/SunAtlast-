@@ -1,0 +1,87 @@
+/* ---------- BODY STYLING ---------- */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #2C3E50, #8BC34A); /* Warm sun gradient */
+  color: #333;
+}
+
+/* ---------- HEADING STYLING ---------- */
+h1 {
+  font-size: 48px;
+  margin: 20px 0 10px 0;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+/* ---------- SUBTITLE ---------- */
+p {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+/* ---------- MAP STYLING ---------- */
+#map {
+  height: 500px;
+  width: 90%;
+  margin: 0 auto;
+  border: 3px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* ---------- RESULT PANEL ---------- */
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+/* ---------- NOTE INPUT SECTION ---------- */
+#note-section {
+  margin-top: 15px;
+}
+
+#note-input {
+  width: 60%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+}
+
+#note-section button {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: #ffa751;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#note-section button:hover {
+  background-color: #ff7e5f;
+}
+
+/* ---------- AFRICA MODE BUTTON ---------- */
+button#africa-btn {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color:#87CEEB;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button#africa-btn:hover {
+  background-color: #ffb700;
+}

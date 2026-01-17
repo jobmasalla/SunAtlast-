@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SunAtlas</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+</head>
+<body>
+
+<h1>🌞 SunAtlas</h1>
+<p>Find the best places for solar energy</p>
+<button id="africa-btn" onclick="focusAfrica()">🌍 Africa Mode</button>
+
+<div id="map"></div>
+<div id="result">Click on the map to analyze solar potential.</div>
+<div id="note-section">
+  <input type="text" id="note-input" placeholder="Add a note about this location">
+  <button onclick="addNote()">Add Note</button>
+</div>
+
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
